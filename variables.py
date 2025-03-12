@@ -29,10 +29,10 @@ Y = False
 # Define W variable (logical AND of X and Y)
 W = X and Y
 
-# 输出 W 的值
+# Output the value of W
 print(f"X = {X}, Y = {Y}, W = X and Y = {W}")
 
-# Output the value of W
+# Generate the truth table for X and Y
 truth_table = [
     (False, False, False and False),
     (False, True, False and True),
